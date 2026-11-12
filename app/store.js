@@ -1,6 +1,6 @@
 export const name = '最強鮨居酒屋 やまのや 天満橋店';
 export const roman = 'Yamanoya Tenmabashi';
-export const address = '大阪府大阪市中央区大手前1-5-4 大手前ハイツ 2F';
+export const address = '〒540-0008 大阪府大阪市中央区大手前１丁目５−４ 大手前ハイツ 2F';
 export const phone = '06-4790-8788';
 export const tel = 'tel:+81647908788';
 export const hours = '月〜土 17:00〜23:00（料理L.O. 22:00、ドリンクL.O. 22:30）';
@@ -9,7 +9,7 @@ export const access = 'Osaka Metro 谷町線 天満橋駅 3番出口、京阪 �
 export const site = 'https://yamanoya-tenmabashi.vercel.app';
 export const book = 'https://tabelog.com/osaka/A2701/A270104/27087568/';
 export const instagram = 'https://www.instagram.com/yamanoya.tenmabashi22/';
-export const map = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(name + ' ' + address);
+export const map = 'https://www.google.com/maps/place/%E3%82%84%E3%81%BE%E3%81%AE%E3%82%84/@34.689247,135.518547,17z/data=!3m5!1s0x6000e7291b06a8fd:0x9f5f2d7478f4043b!8m2!3d34.689247!4d135.518547!16s%2Fg%2F11ckr7fqh9';
 export const description = '大阪・天満橋駅から徒歩5分の最強鮨居酒屋 やまのや 天満橋店。握り鮨、魚の一品料理、おまかせコースと日本酒。営業時間、アクセス、ネット予約をご案内します。';
 
 export const faq = [
