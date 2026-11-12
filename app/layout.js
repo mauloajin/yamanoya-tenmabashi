@@ -11,9 +11,7 @@ export const metadata = {
     title: name, description, url: '/', siteName: name, locale: 'ja_JP', type: 'website',
     images: [{ url: '/sushi.jpg', width: 1440, height: 1440, alt: name + 'の鮨の盛り合わせ' }],
   },
-  verification: process.env.GOOGLE_SITE_VERIFICATION
-    ? { google: process.env.GOOGLE_SITE_VERIFICATION }
-    : undefined,
+  verification: { google: 'ayHXvvh7MAYyEd0yabm5xYrI98qeN_1bfcLkvUPkbrM' },
 };
 
 export default function Layout({ children }) {
