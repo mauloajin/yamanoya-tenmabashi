@@ -10,9 +10,9 @@ const schema = {
       url: site + '/', description, telephone: phone, servesCuisine: ['鮨', '海鮮', '居酒屋'],
       image: site + '/sushi.jpg', acceptsReservations: book, hasMenu: menu, hasMap: map,
       sameAs: [book, instagram],
-      address: { '@type': 'PostalAddress', addressCountry: 'JP', addressRegion: '大阪府', addressLocality: '大阪市中央区', streetAddress: '大手前1-5-4 大手前ハイツ 2F' },
+      address: { '@type': 'PostalAddress', addressCountry: 'JP', addressRegion: '大阪府', addressLocality: '大阪市中央区', postalCode: '540-0008', streetAddress: '大手前１丁目５−４ 大手前ハイツ 2F' },
       openingHoursSpecification: { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'], opens: '17:00', closes: '23:00' },
-      paymentAccepted: '現金、クレジットカード、PayPay',
+      paymentAccepted: 'クレジットカード、PayPay',
     },
     {
       '@type': 'FAQPage', mainEntity: faq.map(([question, answer]) => ({
